@@ -19,9 +19,9 @@ logger = logging.getLogger(__name__)
 
 class AzkarBot:
     def __init__(self):
-        self.bot_token = "7732686950:AAGDC3iAlhPqlkGhakPYEqFwr_chK97DCgI"
+        self.bot_token = 
         self.base_url = f"https://api.telegram.org/bot{self.bot_token}"
-        self.admin_id = 7089656746  # معرف المطور
+        self.admin_id = 
         
         self.scheduler = AsyncIOScheduler()
         self.cairo_tz = pytz.timezone('Africa/Cairo')
