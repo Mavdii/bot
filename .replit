@@ -1,0 +1,50 @@
+modules = ["python-3.11"]
+[agent]
+expertMode = true
+
+[nix]
+channel = "stable-25_05"
+
+[workflows]
+runButton = "AzkarBot-Single"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Islamic Azkar Telegram Bot"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "azkar_bot"
+
+[[workflows.workflow]]
+name = "Islamic Azkar Telegram Bot"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py"
+
+[[workflows.workflow]]
+name = "azkar_bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pip install python-telegram-bot requests pytz apscheduler && python main.py"
+
+[[workflows.workflow]]
+name = "AzkarBot-Single"
+author = 46336770
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py"

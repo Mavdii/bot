@@ -1,0 +1,13 @@
+2025-08-12 16:28:44,623 - apscheduler.executors.default - INFO - Job "AzkarBot.schedule_prayer_notifications (trigger: date[2025-08-12 19:28:44 EEST], next run at: 2025-08-12 19:28:44 EEST)" executed successfully
+2025-08-12 16:28:44,624 - apscheduler.scheduler - INFO - Removed job prayer_notification_Fajr
+2025-08-12 16:28:44,624 - apscheduler.scheduler - INFO - Removed job after_prayer_Fajr
+2025-08-12 16:28:44,624 - apscheduler.scheduler - INFO - Removed job prayer_notification_Dhuhr
+2025-08-12 16:28:44,624 - apscheduler.scheduler - INFO - Removed job after_prayer_Dhuhr
+2025-08-12 16:28:44,624 - apscheduler.scheduler - INFO - Removed job prayer_notification_Asr
+2025-08-12 16:28:44,624 - apscheduler.scheduler - INFO - Removed job after_prayer_Asr
+2025-08-12 16:28:44,624 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_prayer_notification (trigger: date[2025-08-12 04:40:00 EEST], next run at: 2025-08-12 04:40:00 EEST)" was missed by 14:48:44.624943
+2025-08-12 16:28:44,625 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_after_prayer_image (trigger: date[2025-08-12 05:10:00 EEST], next run at: 2025-08-12 05:10:00 EEST)" was missed by 14:18:44.625051
+2025-08-12 16:28:44,625 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_prayer_notification (trigger: date[2025-08-12 12:55:00 EEST], next run at: 2025-08-12 12:55:00 EEST)" was missed by 6:33:44.625158
+2025-08-12 16:28:44,625 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_after_prayer_image (trigger: date[2025-08-12 13:25:00 EEST], next run at: 2025-08-12 13:25:00 EEST)" was missed by 6:03:44.625275
+2025-08-12 16:28:44,625 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_prayer_notification (trigger: date[2025-08-12 16:32:00 EEST], next run at: 2025-08-12 16:32:00 EEST)" was missed by 2:56:44.625359
+2025-08-12 16:28:44,625 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_after_prayer_image (trigger: date[2025-08-12 17:02:00 EEST], next run at: 2025-08-12 17:02:00 EEST)" was missed by 2:26:44.625418
