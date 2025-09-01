@@ -1,0 +1,18 @@
+2025-08-12 16:58:26,544 - apscheduler.scheduler - INFO - Removed job prayer_notification_Fajr
+2025-08-12 16:58:26,544 - apscheduler.scheduler - INFO - Removed job after_prayer_Fajr
+2025-08-12 16:58:26,545 - apscheduler.scheduler - INFO - Removed job prayer_notification_Dhuhr
+2025-08-12 16:58:26,545 - apscheduler.scheduler - INFO - Removed job after_prayer_Dhuhr
+2025-08-12 16:58:26,545 - apscheduler.scheduler - INFO - Removed job prayer_notification_Asr
+2025-08-12 16:58:26,545 - apscheduler.scheduler - INFO - Removed job after_prayer_Asr
+2025-08-12 16:58:26,545 - apscheduler.scheduler - INFO - Removed job prayer_notification_Maghrib
+2025-08-12 16:58:26,545 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_prayer_notification (trigger: date[2025-08-12 04:40:00 EEST], next run at: 2025-08-12 04:40:00 EEST)" was missed by 15:18:26.545656
+2025-08-12 16:58:26,545 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_after_prayer_image (trigger: date[2025-08-12 05:10:00 EEST], next run at: 2025-08-12 05:10:00 EEST)" was missed by 14:48:26.545737
+2025-08-12 16:58:26,545 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_prayer_notification (trigger: date[2025-08-12 12:55:00 EEST], next run at: 2025-08-12 12:55:00 EEST)" was missed by 7:03:26.545802
+2025-08-12 16:58:26,545 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_after_prayer_image (trigger: date[2025-08-12 13:25:00 EEST], next run at: 2025-08-12 13:25:00 EEST)" was missed by 6:33:26.545908
+2025-08-12 16:58:26,545 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_prayer_notification (trigger: date[2025-08-12 16:32:00 EEST], next run at: 2025-08-12 16:32:00 EEST)" was missed by 3:26:26.545979
+2025-08-12 16:58:26,546 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_after_prayer_image (trigger: date[2025-08-12 17:02:00 EEST], next run at: 2025-08-12 17:02:00 EEST)" was missed by 2:56:26.546057
+2025-08-12 16:58:26,546 - apscheduler.executors.default - WARNING - Run time of job "AzkarBot.send_prayer_notification (trigger: date[2025-08-12 19:34:00 EEST], next run at: 2025-08-12 19:34:00 EEST)" was missed by 0:24:26.546137
+2025-08-12 16:58:28,808 - __main__ - INFO - تم إضافة مجموعة جديدة: -1002718490058
+2025-08-12 17:00:00,007 - apscheduler.executors.default - INFO - Running job "AzkarBot.send_evening_azkar (trigger: cron[hour='20', minute='0'], next run at: 2025-08-13 20:00:00 EEST)" (scheduled at 2025-08-12 20:00:00+03:00)
+2025-08-12 17:00:01,090 - apscheduler.executors.default - INFO - Job "AzkarBot.send_evening_azkar (trigger: cron[hour='20', minute='0'], next run at: 2025-08-13 20:00:00 EEST)" executed successfully
+^[[A^[[A^[[A
